@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="InventoryManagement.Api/InventoryManagement.Api.csproj" />
+  <Project Path="InventoryManagement.AppHost/InventoryManagement.AppHost.csproj" />
+</Solution>
