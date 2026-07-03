@@ -1,7 +1,7 @@
-using InventoryManagement.Api.Data.Entities;
+using InventoryManagement.Domain.InventoryItems;
 using Microsoft.EntityFrameworkCore;
 
-namespace InventoryManagement.Api.Data;
+namespace InventoryManagement.Domain.Data;
 
 public class InventoryDbContext : DbContext
 {
@@ -17,6 +17,7 @@ public class InventoryDbContext : DbContext
         modelBuilder.Entity<InventoryItemEntity>(entity =>
         {
             entity.ToTable("inventory_items");
+            entity.HasKey(x => x.Id);
         });
     }
 }
