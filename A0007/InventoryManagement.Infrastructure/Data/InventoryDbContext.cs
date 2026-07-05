@@ -1,7 +1,7 @@
 using InventoryManagement.Domain.InventoryItems;
 using Microsoft.EntityFrameworkCore;
 
-namespace InventoryManagement.Domain.Data;
+namespace InventoryManagement.Infrastructure.Data;
 
 public class InventoryDbContext : DbContext
 {

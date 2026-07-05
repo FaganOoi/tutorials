@@ -4,4 +4,5 @@
   <Project Path="InventoryManagement.AppHost/InventoryManagement.AppHost.csproj" />
   <Project Path="InventoryManagement.Application/InventoryManagement.Application.csproj" />
   <Project Path="InventoryManagement.Domain/InventoryManagement.Domain.csproj" />
+  <Project Path="InventoryManagement.Infrastructure/InventoryManagement.Infrastructure.csproj" />
 </Solution>
