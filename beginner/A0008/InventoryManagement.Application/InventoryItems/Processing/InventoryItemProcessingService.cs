@@ -1,12 +1,12 @@
 using InventoryManagement.Domain.InventoryItems;
 
-namespace InventoryManagement.Application.InventoryItems;
+namespace InventoryManagement.Application.InventoryItems.Processing;
 
-public class InventoryItemService
+public class InventoryItemProcessingService
 {
     private readonly InventoryItemManager manager;
 
-    public InventoryItemService(InventoryItemManager manager)
+    public InventoryItemProcessingService(InventoryItemManager manager)
     {
         this.manager = manager;
     }

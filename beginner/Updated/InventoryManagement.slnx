@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="InventoryManagement.Api.Migrations/InventoryManagement.Api.Migrations.csproj" />
+  <Project Path="InventoryManagement.Api/InventoryManagement.Api.csproj" />
+  <Project Path="InventoryManagement.AppHost/InventoryManagement.AppHost.csproj" />
+  <Project Path="InventoryManagement.Application/InventoryManagement.Application.csproj" />
+  <Project Path="InventoryManagement.Domain/InventoryManagement.Domain.csproj" />
+  <Project Path="InventoryManagement.Infrastructure/InventoryManagement.Infrastructure.csproj" />
+</Solution>
